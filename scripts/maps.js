@@ -1,7 +1,7 @@
 import { Wall } from "./Wall.js";
 import { Pellet } from "./Pellet.js";
 import { PowerUp } from "./PowerUp.js";
-import { Pacman } from "./pacman.js";
+import { Pacman } from "./Pacman.js";
 import { Directions, Ghost, Mode } from "./Ghost.js";
 
 export const maps = [
