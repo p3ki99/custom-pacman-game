@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  background-color: black;
+  padding: 10px 20px;
+}
+
+h1 {
+  color: yellow;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: verdana;
+  font-size: 7em;
+  font-weight: 700;
+  color: yellow;
+  text-shadow: 1px 1px 1px #919191,
+      1px 2px 1px #919191,
+      1px 3px 1px #919191,
+      1px 4px 1px #919191,
+      1px 5px 1px #919191,
+      1px 6px 1px #919191,
+      1px 7px 1px #919191,
+      1px 8px 1px #919191,
+      1px 9px 1px #919191,
+      1px 10px 1px #919191,
+  1px 18px 6px rgba(16,16,16,0.4),
+  1px 22px 10px rgba(16,16,16,0.2),
+  1px 25px 35px rgba(16,16,16,0.2),
+  1px 30px 60px rgba(16,16,16,0.4);
+}
+
+p {
+  color: yellow;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: verdana;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+}
+
+#container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#canvas {
+  width: 700px;
+  height: 700px;
+  border: 1px solid yellow;
+}
+
+
+#buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+.gameWrapper {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+a {
+  display: block;
+  width: 400px;
+  height: 60px;
+  line-height: 60px;
+  font-size: 50px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: yellow;
+  border: 2px solid yellow;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  margin-top: 90px;
+}
+
+a:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: yellow;
+  transition: all .35s;
+}
+
+a:hover {
+  color: black;
+}
+
+a:hover:after {
+  width: 100%;
+}
+
+a span {
+  position: relative;
+  z-index: 2;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu_link {
+  margin-left: 150px;
+}
+
+.dialog {
+  padding: 0.5em;
+  border: 5px solid gray;
+  color: yellow;
+  background-color: black;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.dialog h1 {
+  font-size: 2em;
+
+}
+
+.dialog input {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+
+.space {
+  margin-right: 1%;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.button {
+  background-color: yellow;
+  /* Green */
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+}
+
+#myTable {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid yellow;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+
+}
+
+tbody {
+  color: black;
+  max-height: 100px;
+  overflow: scroll;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff133;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #d6e495;
+}
+
+.scroll {
+  max-height: 300px;
+  overflow: auto;
+}
